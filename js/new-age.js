@@ -27,5 +27,6 @@
             top: 50
         }
     })
+	$('.selectpicker').selectpicker();
 
 })(jQuery); // End of use strict
