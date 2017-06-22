@@ -296,6 +296,7 @@ section.features .feature-item i {
   }
 }
 section.cta {
+  visibility: hidden;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -306,6 +307,7 @@ section.cta {
   padding: 250px 0;
 }
 section.cta .cta-content {
+  visibility: hidden;
   position: relative;
   z-index: 1;
 }
@@ -369,6 +371,10 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
+section.footer{
+	height:100px;
+}
+
 footer {
   background-color: #222222;
   padding: 25px 0;
