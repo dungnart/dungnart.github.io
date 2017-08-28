@@ -39,9 +39,20 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+ <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-nav">
+		<div id="language"> <ul class="nav navbar-nav navbar-language">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img width="20px" src="img/us.svg" alt="English" />English<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="index.html" class="language" rel="jp-JP"><img width="20px" src="img/vn.svg" alt="Tiếng việt" />Tiếng việt</a></li>
+                            <li>
+							 <li><a href="index-jp.html" class="language" rel="jp-JP"><img width="20px" src="img/jp.svg" alt="日本語" />日本語</a></li>
+                        </ul>
+                    </li>
+                </ul></div>
+		  <div id="navbar">
+		    <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
@@ -61,19 +72,13 @@
                     <li>
                         <a class="page-scroll" href="#footer">Contact</a>
                     </li>
-					  <ul class="nav navbar-nav navbar-language">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img width="20px" src="img/us.svg" alt="English" />English<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="index.html" class="language" rel="jp-JP"><img width="20px" src="img/vn.svg" alt="Tiếng việt" />Tiếng việt</a></li>
-                            <li>
-							 <li><a href="index-jp.html" class="language" rel="jp-JP"><img width="20px" src="img/jp.svg" alt="日本語" />日本語</a></li>
-                        </ul>
-                    </li>
-                </ul>
+					  
 
                 </ul>
             </div>
+		  </div>
+		
+		<div id="cleared"></div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
